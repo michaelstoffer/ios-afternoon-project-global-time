@@ -12,6 +12,9 @@
 		D6F93E4122C59F1A007B4A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F93E4022C59F1A007B4A31 /* Assets.xcassets */; };
 		D6F93E4422C59F1A007B4A31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F93E4222C59F1A007B4A31 /* LaunchScreen.storyboard */; };
 		D6F93E4F22C59F70007B4A31 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F93E4E22C59F70007B4A31 /* ClockView.swift */; };
+		D6F93E5622C5A32A007B4A31 /* TimeZonesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F93E5522C5A32A007B4A31 /* TimeZonesTableViewController.swift */; };
+		D6F93E5822C5A3CD007B4A31 /* GlobalTimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F93E5722C5A3CD007B4A31 /* GlobalTimeTableViewController.swift */; };
+		D6F93E5A22C5A4A2007B4A31 /* ClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F93E5922C5A4A2007B4A31 /* ClockTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +24,10 @@
 		D6F93E4022C59F1A007B4A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6F93E4322C59F1A007B4A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6F93E4522C59F1A007B4A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6F93E4E22C59F70007B4A31 /* ClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClockView.swift; path = ../../ClockView.swift; sourceTree = "<group>"; };
+		D6F93E4E22C59F70007B4A31 /* ClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		D6F93E5522C5A32A007B4A31 /* TimeZonesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZonesTableViewController.swift; sourceTree = "<group>"; };
+		D6F93E5722C5A3CD007B4A31 /* GlobalTimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalTimeTableViewController.swift; sourceTree = "<group>"; };
+		D6F93E5922C5A4A2007B4A31 /* ClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +60,7 @@
 		D6F93E3822C59F18007B4A31 /* Global Time */ = {
 			isa = PBXGroup;
 			children = (
-				D6F93E4E22C59F70007B4A31 /* ClockView.swift */,
+				D6F93E5222C5A23D007B4A31 /* Views */,
 				D6F93E4D22C59F54007B4A31 /* View Controllers */,
 				D6F93E4C22C59F40007B4A31 /* Storyboards */,
 				D6F93E4B22C59F29007B4A31 /* Resources */,
@@ -84,8 +90,19 @@
 		D6F93E4D22C59F54007B4A31 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D6F93E5722C5A3CD007B4A31 /* GlobalTimeTableViewController.swift */,
+				D6F93E5522C5A32A007B4A31 /* TimeZonesTableViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D6F93E5222C5A23D007B4A31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D6F93E4E22C59F70007B4A31 /* ClockView.swift */,
+				D6F93E5922C5A4A2007B4A31 /* ClockTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +177,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6F93E4F22C59F70007B4A31 /* ClockView.swift in Sources */,
+				D6F93E5A22C5A4A2007B4A31 /* ClockTableViewCell.swift in Sources */,
+				D6F93E5822C5A3CD007B4A31 /* GlobalTimeTableViewController.swift in Sources */,
+				D6F93E5622C5A32A007B4A31 /* TimeZonesTableViewController.swift in Sources */,
 				D6F93E3A22C59F18007B4A31 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
